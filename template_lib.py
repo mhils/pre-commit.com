@@ -128,7 +128,7 @@ class Renderer(markdown_code_blocks.CodeRenderer):
     ) -> str:
         return (
             f'<img '
-            f'    src="{html.escape(src)}"'
+            f'    src="{src}"'
             f'    alt="{html.escape(alt)}"'
             f'    class="img-fluid img-thumbnail"'
             f'>'
